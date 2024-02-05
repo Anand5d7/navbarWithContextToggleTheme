@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.notFound-bg-dark {
+  background-color: #000000;
+  background-size: cover;
+}
+
+.notFound-bg-light {
+  background-color: #ffffff;
+  background-size: cover;
+}
+
+.not-found-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  width: 30vw;
+  padding-top: 100px;
+}
+
+.not-found-image {
+  height: 220px;
+  width: 170px;
+}
+
+.not-found-heading {
+  font-family: 'Roboto';
+  font-size: 23px;
+  font-weight: 700;
+}
+.not-found-para {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.notFound-heading-dark {
+  color: #ffffff;
+}
+.notFound-heading-light {
+  color: #171f46;
+}
+
+.notFound-para-dark {
+  color: #ffffff;
+}
+.notFound-para-light {
+  color: #334155;
+}
